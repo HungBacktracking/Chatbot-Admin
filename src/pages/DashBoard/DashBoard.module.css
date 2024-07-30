@@ -1,0 +1,12 @@
+.title {
+    color: #464255;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.system {
+    font-size: .875rem;
+    line-height: 1.4285714286;
+    font-weight: 400;
+    color: rgb(95, 99, 104);
+}

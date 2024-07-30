@@ -1,0 +1,156 @@
+.title {
+    color: #464255;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.system {
+    font-size: .875rem;
+    line-height: 1.4285714286;
+    font-weight: 400;
+    color: rgb(95, 99, 104);
+}
+
+.small_container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em 3em 1em;
+    width: 100%;
+    flex-grow: 1;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 7vh;
+    gap: 3em;
+}
+
+.small_title {
+    color: #464255;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.medium_title {
+    color: #464255;
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.4285714286;
+    font-weight: 400;
+    color: rgb(95, 99, 104);
+    margin-bottom: 1em;
+}
+
+.broadcast_wrapper {
+    height: 25vh;
+}
+
+.prompt_wrapper {
+    height: 45vh;
+}
+
+.check_info_wrapper {
+    height: 10vh;
+    width: 60%;
+}
+
+.notepad {
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    padding: 1vw 1vw;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+}
+
+.action {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.button_action {
+    font-family: Inter var, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    padding: 1vw 2vw;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 2px;
+    flex-basis: 48%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.success {
+    border: #5a9f68 solid 2px;
+}
+
+.success:hover {
+    background-color: rgba(90, 159, 104, 0.5);
+}
+
+.destroy {
+    border: #c24a4a solid 2px;
+}
+
+.destroy_1px {
+    border: #c24a4a solid 1px;
+}
+
+.destroy:hover {
+    background-color: rgba(194, 74, 74, 0.5);
+}
+
+.expandableParagraphContainer {
+    position: relative;
+    width: 100%;
+}
+
+.expandableParagraph {
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    white-space: pre-wrap; /* Để xử lý dấu xuống dòng */
+}
+
+.collapsed {
+    max-height: 30em; /* Chiều cao tối đa để cắt bớt văn bản */
+}
+
+.expanded {
+    max-height: none; /* Mở rộng văn bản */
+}
+
+.toggleButton {
+    margin-top: 1em;
+    background-color: #33669e;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.toggleButton:hover {
+    background-color: #0056b3;
+}
+
+.edit {
+    background-color: #fcfbf9;
+    /* color: white; */
+    border: none;
+    height: fit-content;
+    padding: 0.1em 0.4em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit:hover {
+    background-color: #f0f0f0;
+}

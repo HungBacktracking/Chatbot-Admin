@@ -1,0 +1,241 @@
+.title {
+    color: #464255;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.system {
+    font-size: .875rem;
+    line-height: 1.4285714286;
+    font-weight: 400;
+    color: rgb(95, 99, 104);
+    margin-bottom: 5vh;
+}
+
+.small_container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em 3em 1em;
+    width: 100%;
+    flex-grow: 1;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 7vh;
+    gap: 3em;
+}
+
+.small_title {
+    color: #464255;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.medium_title {
+    color: #464255;
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.4285714286;
+    font-weight: 400;
+    color: rgb(95, 99, 104);
+    margin-bottom: 1em;
+}
+
+.broadcast_wrapper {
+    height: 25vh;
+}
+
+.check_info_wrapper {
+    height: 10vh;
+    width: 60%;
+}
+
+.notepad {
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    padding: 1vw 1vw;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+}
+
+.action {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.button_action {
+    font-family: Inter var, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    padding: 1vw 2vw;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 2px;
+    flex-basis: 48%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.success {
+    border: #5a9f68 solid 2px;
+}
+
+.success:hover {
+    background-color: rgba(90, 159, 104, 0.5);
+}
+
+.destroy {
+    border: #c24a4a solid 2px;
+}
+
+.destroy_1px {
+    border: #c24a4a solid 1px;
+}
+
+.destroy:hover {
+    background-color: rgba(194, 74, 74, 0.5);
+}
+
+.safe_separate {
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    height: 2px;
+    width: calc(90%);
+    background-color: #a19f9f;
+    border-radius: 8px;
+    align-self: center;
+}
+
+.danger_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 7vh;
+}
+
+.danger_item {
+    padding: 1.3em;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #a19f9f;
+}
+
+.danger_item:last-child {
+    border-bottom: none;
+}
+
+
+
+.danger_title {
+    color: #464255;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.danger_description {
+    font-size: 1rem;
+    line-height: 1.4285714286;
+    font-weight: 400;
+    color: rgb(95, 99, 104);
+    margin-bottom: 0em;
+}
+
+.disable {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.danger_action_description {
+    align-self: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    line-height: 1.4285714286;
+    font-weight: 400;
+    color: rgb(19, 122, 106);
+    margin-right: 1rem;
+}
+
+.danger_action {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    /* max-width: 20%; */
+    margin-left: auto;
+    padding: 5px 1.1rem;
+
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 6px;
+
+    transition: 80ms cubic-bezier(0.33, 1, 0.68, 1);
+    transition-property: color, background-color, box-shadow, border-color;
+
+    color: #d1242f;
+    background-color: #f6f8fa;
+    border-color: #d0d7de;
+    box-shadow: 0px 1px 0px 0px #1f23280a;
+}
+
+.danger_action:hover {
+    color: #fff;
+    background-color: #a40e26;
+    border-color: #1f232826;
+}
+
+.danger_action:active {
+    background-color: #8b0820;
+    border-color: #1f232826;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem 0;
+}
+
+.info_img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 8px;
+    background-color: #b6b6bb;
+    margin-right: 1em;
+}
+
+.info_text {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;
+}
+
+.info_name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #464255;
+    margin-bottom: 0;
+}
+
+.info_id {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(95, 99, 104);
+    margin-bottom: 0;
+}

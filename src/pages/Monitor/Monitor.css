@@ -1,0 +1,83 @@
+.p-button .p-button-icon-left {
+    margin-right: 0.5rem;
+}
+
+.no-ms {
+    margin: 0;
+}
+
+.p-button {
+    color: #ffffff;
+    background: #06b6d4;
+    border: 1px solid #06b6d4;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    border-radius: 6px;
+}
+
+.p-button {
+    margin: 0;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    align-items: center;
+    vertical-align: bottom;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.p-component, .p-component * {
+    box-sizing: border-box;
+}
+
+.p-button:not(:disabled):active {
+    background: #0e7490;
+    color: #ffffff;
+    border-color: #0e7490;
+}
+
+.p-button.p-fileupload-choose {
+    position: relative;
+    overflow: hidden;
+}
+
+.p-button:focus {
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #71e7fb, 0 1px 2px 0 rgb(0, 0, 0);
+}
+
+.p-button .p-button-label {
+    transition-duration: 0.2s;
+}
+
+.p-button-label {
+    flex: 1 1 auto;
+}
+
+.p-button:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 0.2rem #a5f3fc;
+}
+
+.p-button:not(:disabled):hover {
+    background: #0891b2;
+    color: #ffffff;
+    border-color: #0891b2;
+}
+
+.p-toast .p-toast-message {
+    margin: 0 0 1rem 0;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+}
+
+.p-toast .p-toast-message .p-toast-message-content .p-toast-message-text {
+    margin: 0 0 0 1rem;
+}
+
+.p-toast .p-toast-message .p-toast-message-content {
+    padding: 1rem;
+    border-width: 0 0 0 6px;
+}

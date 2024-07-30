@@ -1,0 +1,88 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    z-index: 100;
+    width: 20%;
+    height: 100vh;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0.1em;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: 900;
+    font-family: Popins, sans-serif;
+    color: #333;
+    align-self: flex-end;
+    line-height: 0.8;
+}
+
+.green_dot {
+    background-color: #00D084;
+    width: 0.3em;
+    height: 0.3em;
+    border-radius: 50%;
+    align-self: flex-end;
+}
+
+.description {
+    font-size: 0.8em;
+    color: #B9BBBD;
+    font-weight: 400;
+    margin-top: 0.5em;
+}
+
+.navigator_list {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav_link {
+    padding: 0.5em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    color: #464255;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+}
+
+.nav_text {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.active, .nav_link:hover {
+    background-color: rgba(0, 176, 116, 0.15);
+    color: rgba(0, 176, 116, 1);
+    font-weight: 600;
+}
+
+.separate_wrapper {
+    padding: 0.5em 0;
+}
+
+.separate {
+    height: 1px;
+    background-color: #E0E0E0;
+}
