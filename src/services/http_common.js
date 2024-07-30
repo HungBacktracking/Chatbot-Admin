@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getAppToken } from '../services/Cookie';
 
 const http = axios.create({
-  baseURL: "https://chatbothcmus.onrender.com",
+  baseURL: "https://chatbothcmustesting.onrender.com",
   timeout: 5000,
 });
 
